@@ -2,18 +2,24 @@
 
 .flexible-area{
     display: flex;
+    
+}
+.flexible-area img{
+    width: 300px;
 }
 .half-width{
     width: 50%;
     margin-left: 10%;
-    
-    
-    
+    margin-right: 10px;
+
+   
 }
 .half-width img{
-    width: 500px;s
+    width: 500px;
+    margin-bottom: 150opx;
+    
 }
-#select-position{
+.select-position{
     margin-top: 100px;
 }
 h1{
@@ -32,13 +38,38 @@ h1{
 }
 #add-border{
     border-left: solid 5px ;
-
 border-image: linear-gradient(red, orange);
 border-image-slice: 1;
-padding-left: 10px;
 }
-.mission-item{
+.box-item{
     width: 20%;
-    
-    
+    border-radius: 10px;
+margin-left: 10%;  
+box-shadow: 0px 0px 0px; 
+padding: 10px 15px;
+}
+.box-item img{
+    width: 200px;
+}
+#add-background{
+    background-color: rgb(199, 236, 241);
+}
+#new-background{
+    background-color: rgba(87, 59, 62, 0.479);
+}
+#last-background{
+    background-color: rgba(126, 122, 85, 0.411);
+}
+.text-position{
+    text-align: center;
+}
+footer{
+    color: mintcream;
+    background-color:midnightblue;
+}
+#foot-color{
+    color: rgb(80, 14, 94);
+}
+footer h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
