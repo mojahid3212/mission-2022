@@ -1,6 +1,6 @@
 
 
-section{
+.flexible-area{
     display: flex;
 }
 .half-width{
@@ -8,12 +8,10 @@ section{
     margin-left: 10%;
     
     
+    
 }
 .half-width img{
-    width: 90%;
-    
-    vertical-align: top;
-    
+    width: 500px;s
 }
 #select-position{
     margin-top: 100px;
@@ -26,16 +24,21 @@ h1{
 }
 .link-button{
     text-decoration: none;
-    background-image: -webkit-linear-gradient(tomato, rgb(255, 0, 242));
+    background-image: -webkit-linear-gradient(tomato, rgb(241, 74, 233));
     padding: 10px 15px;
     font-size: 20px;
     font-weight: 700;
     color: rgb(236, 227, 227);
 }
 #add-border{
-    border-left: solid 5px;
-border-left-radius: 10px;
+    border-left: solid 5px ;
+
 border-image: linear-gradient(red, orange);
 border-image-slice: 1;
 padding-left: 10px;
+}
+.mission-item{
+    width: 20%;
+    
+    
 }
